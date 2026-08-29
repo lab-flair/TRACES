@@ -1,5 +1,7 @@
 # Trajectory Representation for Agent-Centric Early Safety
 
+> **Accepted to the EMNLP 2026 Main Conference.** [[Paper](https://arxiv.org/pdf/2605.27690)]
+
 This repository contains the pipeline for extracting action-end representations, building event-level representation tables, training trace-level auditors, and evaluating the final models on ASSE and ATBench.
 
 The pipeline is organized into five stages:
@@ -206,3 +208,17 @@ eval_outputs/atbench_test/atbench_test_aggregate_summary.csv
 
 ---
 
+## Citation
+
+If you find this work useful, please cite:
+
+```bibtex
+@inproceedings{li2026traces,
+  title     = {{TRACES}: Proactive Safety Auditing for Multi-Turn {LLM} Agents via Trajectory-State Modeling},
+  author    = {Li, Jiaqian and Li, Yanshu and Zhang, Boxuan and Tang, Ruixiang and Huang, Kuan-Hao},
+  booktitle = {Proceedings of the 2026 Conference on Empirical Methods in Natural Language Processing},
+  year      = {2026},
+  note      = {Main Conference},
+  url       = {https://arxiv.org/abs/2605.27690}
+}
+```
